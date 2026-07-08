@@ -21,6 +21,68 @@ This system consists of:
 
 ---
 
+## 🎯 System Capabilities
+
+| Category | Command | Windows | Linux | Description |
+|----------|---------|---------|-------|-------------|
+| **System Diagnostics** | SYS_INFO | ✅ | ✅ | System hardware and OS information |
+| | NET_STAT | ✅ | ✅ | Network adapters and IP configuration |
+| | PROCESS_LIST | ✅ | ✅ | Active processes and task list |
+| | PORT_SCAN | ✅ | ✅ | Open ports and network connections |
+| **Advanced Analysis** | DNS_CACHE | ✅ | ✅ | DNS cache analysis |
+| | ROUTE_PRINT | ✅ | ✅ | Routing table diagnostic |
+| | ENV_VARS | ✅ | ✅ | Environment variables audit |
+| | DISK_CHECK | ✅ | ✅ | Disk health and space check |
+| **Performance Tests** | CALC_TEST | ✅ | ✅ | Calculator GUI test |
+| | PING_TEST | ✅ | ✅ | Network latency test |
+| | CPU_STRESS | ✅ | ✅ | CPU load monitoring |
+| | MEM_CHECK | ✅ | ✅ | Memory usage analysis |
+| **System Management** | SERVICE_LIST | ✅ | ✅ | Services/systemd status |
+| | EVENT_LOG | ✅ | ✅ | Event logs/journal logs |
+| | FIREWALL_STATUS | ✅ | ✅ | Firewall status check |
+| | STARTUP | ✅ | ✅ | Startup programs/services |
+| | HOTFIXES | ✅ | ✅ | Installed hotfixes/updates |
+| | NET_DIAG | ✅ | ✅ | Network interface diagnostics |
+| | USER_AUDIT | ✅ | ✅ | User accounts audit |
+| | SCHED_TASKS | ✅ | ✅ | Scheduled tasks/cron jobs |
+| | INSTALLED_PROGS | ✅ | ✅ | Installed programs/packages |
+| | BOOT_TIME | ✅ | ✅ | System boot time |
+| | NET_CONNECTIONS | ✅ | ✅ | Active network connections |
+| **Administrative Tools** | REGEDIT | ✅ | ✅ | Registry Editor/System config |
+| | GPEDIT | ✅ | ✅ | Group Policy/Sudoers config |
+| | SECPOL | ✅ | ✅ | Security Policy/Firewall rules |
+| | COMPMGMT | ✅ | ✅ | Computer Management Console |
+| | TASKSCHD | ✅ | ✅ | Task Scheduler/Cron editor |
+| | SERVICES | ✅ | ✅ | Services Manager GUI |
+| | EVENTVWR | ✅ | ✅ | Event Viewer GUI |
+| | DEVMGMT | ✅ | ✅ | Device Manager/PCI devices |
+| | DISKMGMT | ✅ | ✅ | Disk Management Console |
+| **Performance Monitoring** | PERFMON | ✅ | ✅ | Performance Monitor/htop |
+| | RESMON | ✅ | ✅ | Resource Monitor/iotop |
+| | MSINFO32 | ✅ | ✅ | System Information/dmidecode |
+| | TASKMGR | ✅ | ✅ | Task Manager/top |
+| **Security & Encryption** | BITLOCKER | ✅ | ✅ | BitLocker status/LUKS info |
+| | CERTMGR | ✅ | ✅ | Certificate Manager |
+| | WSCUI | ✅ | ✅ | Windows Security/UFW status |
+| | WF_MSC | ✅ | ✅ | Advanced Firewall |
+| | LUSRMGR | ✅ | ✅ | Local Users & Groups |
+| **Network Administration** | NCPA | ✅ | ✅ | Network Adapter Settings |
+| | SHARES | ✅ | ✅ | Shared Folders/NFS shares |
+| | SESSIONS | ✅ | ✅ | Active Sessions/Logged users |
+| | NET_SHARES | ✅ | ✅ | Network shares audit |
+| | RDP_CONFIG | ✅ | ✅ | RDP/SSH configuration |
+| **System Maintenance** | SFC | ✅ | ✅ | System File Checker |
+| | WUSA | ✅ | ✅ | Update History |
+| | DRIVERQUERY | ✅ | ✅ | Driver Query/Kernel modules |
+| | POWERCFG | ✅ | ✅ | Power Configuration |
+| **Advanced Diagnostics** | PROC_TREE | ✅ | ✅ | Process tree visualization |
+| | OPEN_FILES | ✅ | ✅ | Open files and handles |
+| | CLEAR_QUEUE | ✅ | ✅ | Clear command queue |
+
+**Total Commands: 53** | **Windows Support: 53** | **Linux Support: 53**
+
+---
+
 ## 🛠️ Prerequisites
 
 ### Hardware
