@@ -1,0 +1,36 @@
+{
+  "server": {
+    "host": "192.168.1.15",
+    "port": 80,
+    "use_mDNS": true,
+    "mDNS_hostname": "nodemcu-c2"
+  },
+  "network": {
+    "ssid": "DemoWiFi_Network",
+    "password": "DemoPassword123",
+    "connection_timeout": 30
+  },
+  "security": {
+    "api_key": "CHANGE_THIS_TO_SECURE_RANDOM_KEY",
+    "enable_auth": true,
+    "rate_limit_per_minute": 60,
+    "max_queue_size": 20,
+    "allowed_clients": [],
+    "enable_cors": true
+  },
+  "logging": {
+    "enable_serial": true,
+    "log_level": "INFO",
+    "max_history": 100
+  },
+  "monitoring": {
+    "heartbeat_interval": 10000,
+    "status_update_interval": 30000,
+    "connection_timeout": 10000
+  },
+  "commands": {
+    "enable_dangerous_commands": false,
+    "require_confirmation": true,
+    "auto_clear_on_success": false
+  }
+}
